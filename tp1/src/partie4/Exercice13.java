@@ -1,0 +1,15 @@
+package partie4;
+import java.util.*;
+public class Exercice13 {
+	public static void main(String[] args) {
+	System.out.print("Entrer une chaine de caracteres:");
+	Scanner st = new Scanner(System.in);
+	String chain = st.nextLine();
+	String invers = "";
+	for(int i = 0 ; i < chain.length() ; i++) {
+		invers += chain.charAt(chain.length()-i-1);
+	}
+	
+	System.out.println("invers de "+chain+"est: "+invers);
+  }
+}

@@ -1,0 +1,17 @@
+package partie2;
+import java.util.*;
+public class Exercice5 {
+
+	public static void main(String[] args) {
+		int []T = {}; int i = 0;
+		System.out.print("entrer la taille de Tableau:");
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt(); T = new int[N];
+		while(i<N) {
+			T[i]=i+1;
+			i++;
+		}
+        System.out.print(T);
+	}
+
+}

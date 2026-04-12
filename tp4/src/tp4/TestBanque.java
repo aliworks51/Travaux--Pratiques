@@ -21,7 +21,6 @@ public class TestBanque {
 		for(int i = 0; i < 4; i++) {
 
 		    if (Compte[i] instanceof CompteEpargne) {
-		        ((CompteEpargne) Compte[i]).calculerInteret();
 		        Compte[i].afficher();
 		    } 
 		}
